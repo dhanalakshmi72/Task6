@@ -1,0 +1,38 @@
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.6s ease;
+}
+
+.image-gallery {
+    padding: 40px 0;
+   
+}
+.image-container img:hover{
+    transform: scale(1.1);
+}
+
+
+.category-buttons {
+    margin-bottom: 20px;
+}
+.category-button{
+    border-radius: 200px;
+    min-width:140px;
+    min-height:40px;
+    margin-bottom: 20px;
+}
+
+.category-button[data-category="all"] {
+    color: #007bff;
+}
+
+.category-button[data-category="all"].btn-primary {
+    color: white;
+    background-color: #007bff; 
+}
+.category-button[data-category="all"]:hover{
+    color:white;
+}
+
